@@ -26,7 +26,8 @@ const PostPage = (props: any) => {
 
   return (
     <div>
-      {post.data.subrcrive && (
+      aaa
+      {/* {post.data.subrcrive && (
         <PostContent>
           <div>
             <div className="my-12 text-center">
@@ -56,7 +57,7 @@ const PostPage = (props: any) => {
             <Markdown>{post.content}</Markdown>
           </article>
         </div>
-      )}
+      )} */}
     </div>
   );
 };
