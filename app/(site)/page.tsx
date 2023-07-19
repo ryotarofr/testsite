@@ -30,7 +30,7 @@ export default async function Home() {
             最近のお知らせ
           </h1>
         </div>
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">{infoPreviews}</div>
+        {/* <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">{infoPreviews}</div> */}
         <Link
           href="/info"
           className="flex items-center mt-2 ml-2 text-sm text-blue-400 hover:text-blue-700"
