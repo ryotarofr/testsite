@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+:root {
+  height: 100%;
+  color-scheme: dark;
+}
+
+body {
+  padding: 0 24px;
+}
+
+/*960px以上のとき*/
+@media screen and (min-width: 960px) {
+  body {
+    padding: 64px 40px 0;
+  }
+}
