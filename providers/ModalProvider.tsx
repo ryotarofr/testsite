@@ -6,7 +6,6 @@ import AuthModal from '@/components/AuthModal';
 import UploadModal from '@/components/UploadModal';
 import SubscribeModal from '@/components/SubscribeModal';
 import { ProductWithPrice } from '@/types';
-import NavigationModal from '@/components/Tablet_Mobile/NavigationModal';
 
 
 interface MordalProviderProps {
