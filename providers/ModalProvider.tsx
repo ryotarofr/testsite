@@ -25,7 +25,7 @@ const ModalProvider: FC<MordalProviderProps> = ({ products }) => {
   }
   return (
     <>
-    <NavigationModal />
+      {/* <NavigationModal /> */}
       <AuthModal />
       <UploadModal />
       <SubscribeModal products={products} />
